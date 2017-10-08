@@ -1,0 +1,11 @@
+resolver: lts-19.33
+
+build:
+    test: true
+    test-arguments:
+        additional-args: [--hide-successes]
+packages:
+  - '.'
+extra-deps:
+  - roman-numerals-0.5.1.5
+  - unicode-tricks-0.14.1.0

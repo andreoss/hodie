@@ -1,0 +1,17 @@
+name: hodie
+version: 0.0.1
+category: Date/time
+description: See README.md
+github: andreoss/hodie
+
+ghc-options: -Wall
+
+dependencies:
+  - base >= 4.13
+  - text
+  - time
+  - roman-numerals
+  - unicode-tricks
+
+executable:
+  main: main.hs
